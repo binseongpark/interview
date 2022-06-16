@@ -47,3 +47,13 @@ function tabsHandler(index) {
 자신이 속한 객체 또는 자신이 생성할 인스턴스를 가리키는 자기 참조 변수. arrow function 은 언제나 상위스코프의 this 를 가리킴. 일반함수는 어떻게 호출되는지에 따라 동적으로 결정됨.
 
 # 깊은복사, 얕은복사
+깊은복사는 객체의 실제값을 복사하고 얕은복사는 객체의 주소를 복사
+
+# for, forEach
+for는 동기, foreach 는 비동기 for를 돌다가 에러가 나면 그 이후 처리는 하지 못함
+- forEach
+배열에 대해 반복 작업
+- for .. in
+key 속성을 반복할 때 사용
+- for .. of
+iterable Object 에 사용. Array, Map, Set, String, TypedArray, arguments
